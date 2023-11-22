@@ -1,4 +1,4 @@
-Finite difference 1D Steady Heat diffusion code written in C++ using openMP for parallelization. 
+Finite difference 2D Steady Heat diffusion code written in C++ using openMP for parallelization. 
 The code has a serial segment as well as a parallel segment which is implemented using openMP, an "output.dat" file is created after you run the program. 
 First column in the output.dat file gives you the domain points in X-axis(eg i=1,2,3....LX), Second column gives you the domain points as well but in Y-axis, Third column gives youtemperature that is evaluated computationally.
 Two output files are created that are "output_parallel.dat" and "output_serial.dat".
