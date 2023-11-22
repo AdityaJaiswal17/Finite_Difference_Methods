@@ -8,7 +8,8 @@ The results can be viewed using gnuplot or any other softwares of users choice.
 
 To compile use the following command;
 
-export OMP_NUM_THREADS= ("value of the threads you can set according to your machine specifications") 
+export OMP_NUM_THREADS= ("value of the threads you can set according to your machine specifications")
+
 g++ 1D_heat_diff.cpp -fopenmp
 
 NOTE : fopenmp flag is just to compile the openMP part in the code.
