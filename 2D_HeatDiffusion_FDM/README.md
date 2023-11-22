@@ -11,3 +11,11 @@ Syntax to view a surface map on gnuplot;
 set pm3d map;
 set size ratio 1.0; //(ratio as per needed)
 sp 'output_serial.dat' u 1:2:3 with image;
+
+
+To compile use the following command;
+
+export OMP_NUM_THREADS= ("value of the threads you can set according to your machine specifications")
+g++ 2D_heat_diff.cpp -fopenmp
+
+NOTE : fopenmp flag is just to compile the openMP part in the code.
